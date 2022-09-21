@@ -13,7 +13,7 @@ Pilih Java sesuai dengan yang dipakai pada komputer.
 #### Langkah 6:
 Tambahkan dependensi berikut: **Spring Web**.
 
-![gambar](https://drive.google.com/uc?export=view&id=1-zwcbicL6sT9TKJTaihuE0pFU-MDju9x)
+![gambar](https://drive.google.com/uc?export=view&id=1e-GesQK8KruRqm_aVksaM23RnABZXH8Q)
 #### Langkah 7:
 Klik tombol **Generate the project** . File zip akan diunduh, ekstrak ke dalam hard disk.
 #### Langkah 8:
@@ -30,7 +30,7 @@ Proyek yang dibuat oleh [start.spring.io](https://start.spring.io/) berisi Sprin
 #### Langkah 2: Tambahkan kode Anda
 Buka proyek di IDE Anda dan cari file **LatihanServiceApplication.java** di **Source Packages** pada folder **com.afifpermana.latihanservice**. Sekarang ubah isi file dengan menambahkan metode tambahan dan anotasi yang ditunjukkan pada kode di bawah ini. Anda dapat menyalin dan menempelkan kode atau cukup mengetiknya.
 ```java
-package com.afifpermana.latihanservice;
+package com.afifpermana.latihan2service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -40,7 +40,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-public class LatihanServiceApplication {
+public class Latihan2ServiceApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(LatihanServiceApplication.class, args);
