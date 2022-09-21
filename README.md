@@ -47,7 +47,7 @@ public class Latihan2ServiceApplication {
     }
 
     @GetMapping("/hello")
-    public String hello(@RequestParam(value = "name", defaultValue = "word") String name) {
+    public String hello(@RequestParam(value = "name", defaultValue = "Latihan 2") String name) {
         return String.format("Hello %s!", name);
     }
 
