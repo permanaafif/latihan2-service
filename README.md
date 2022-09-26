@@ -67,6 +67,6 @@ Run file **LatihanService2Application.java**.
 
 ![gambar](https://drive.google.com/uc?export=view&id=13uL9KrAbIxVXwgXNSbDmvkd3x1lZDyTX)
 
-Beberapa baris terakhir di sini memberi tahu kami bahwa Spring telah dimulai. Server Apache Tomcat tertanam pada Spring Boot bertindak sebagai server web dan mendengarkan permintaan pada `localhost` port `8080`. Buka browser Anda dan di bilah alamat di bagian atas enter `http://localhost:8080/halo`. Anda harus mendapatkan respons ramah yang bagus seperti ini:
+Beberapa baris terakhir di sini memberi tahu kami bahwa Spring telah dimulai. Server Apache Tomcat tertanam pada Spring Boot bertindak sebagai server web dan mendengarkan permintaan pada `localhost` port `8010`. Buka browser Anda dan di bilah alamat di bagian atas enter `http://localhost:8010/halo`. Anda harus mendapatkan respons ramah yang bagus seperti ini:
 
 ![gambar](https://drive.google.com/uc?export=view&id=1spLch48tRqsYzVVANu0JAHqb7LHY2RV1)
