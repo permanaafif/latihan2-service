@@ -57,8 +57,16 @@ Metode `hello()` yang di tambahkan dirancang untuk mengambil parameter String ya
 
 
 Anotasi `@RestController` memberi tahu Spring bahwa kode ini menjelaskan titik akhir yang harus tersedia melalui web. `@GetMapping(“/hello”)` memberi tahu Spring untuk menggunakan method `hello()` untuk menjawab permintaan yang dikirim ke alamat  `http://localhost:8080/hello`. Akhirnya, `@RequestParamSpring` memberi tahu Spring untuk mengharapkan nilai `name` dalam permintaan, tetapi jika tidak ada, itu akan menggunakan kata "Dunia" secara default.
-#### Langkah 3: Cobalah !
-Run file **LatihanServiceApplication.java**. Beberapa baris terakhir di sini memberi tahu kami bahwa Spring telah dimulai. Server Apache Tomcat tertanam pada Spring Boot bertindak sebagai server web dan mendengarkan permintaan pada `localhost` port `8080`. Buka browser Anda dan di bilah alamat di bagian atas enter `http://localhost:8080/halo`. Anda harus mendapatkan respons ramah yang bagus seperti ini:
+#### Langkah 3: Cara menukar port
+Pada projek kita, pergi ke **Other Sources** >> **src/main/resources** >> **default package** >> **application.properties**. Lalu buat `server.port= *nomorPort*` pada application.packages agar tidak terjadi bentrok antar port.
 
-![gambar](https://drive.google.com/uc?export=view&id=12Bnc3bwzGqHBZ75GSChAbIIZ_hqwwj8g)
+![gambar](https://drive.google.com/uc?export=view&id=1UM2_CzmblZs_8gpz9iq4nj4Vl7zLr92J)
 
+#### Langkah 4: Cobalah !
+Run file **LatihanService2Application.java**. 
+
+![gambar](https://drive.google.com/uc?export=view&id=13uL9KrAbIxVXwgXNSbDmvkd3x1lZDyTX)
+
+Beberapa baris terakhir di sini memberi tahu kami bahwa Spring telah dimulai. Server Apache Tomcat tertanam pada Spring Boot bertindak sebagai server web dan mendengarkan permintaan pada `localhost` port `8080`. Buka browser Anda dan di bilah alamat di bagian atas enter `http://localhost:8080/halo`. Anda harus mendapatkan respons ramah yang bagus seperti ini:
+
+![gambar](https://drive.google.com/uc?export=view&id=1spLch48tRqsYzVVANu0JAHqb7LHY2RV1)
