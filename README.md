@@ -1,4 +1,11 @@
 # Membuat Layanan Mikroservice Sederhana
+## About
+* Menggunakan Maven Spring
+* Menggunakan Spring Boot versi 2.6.11
+* Menggunakan Apache NetBeans IDE 13
+* Menggunakan Bahasa Java
+* Menggunakan JDK 17
+* Menggunakan Browser Chrome
 ## Download Maven Projek Menggunakan Spring
 #### Langkah 1:
 Buat proyek Maven menggunakan Spring Initializr https://start.spring.io/
@@ -53,7 +60,7 @@ public class Latihan2ServiceApplication {
 
 }
 ````
-Metode `hello()` yang di tambahkan dirancang untuk mengambil parameter String yang disebut `name`, dan kemudian menggabungkan parameter ini dengan kata `"Hello"`dalam kode. Ini berarti bahwa jika Anda menyetel nama Anda ke `“World”` dalam permintaan, responsnya adalah `“Hello World”`.
+Metode `hello()` yang di tambahkan dirancang untuk mengambil parameter String yang disebut `name`, dan kemudian menggabungkan parameter ini dengan kata `"Hello"`dalam kode. Ini berarti bahwa jika Anda menyetel `name` dengan `“Latihan 2”` dalam permintaan, responsnya adalah `“Hello Latihan 2”`.
 
 
 Anotasi `@RestController` memberi tahu Spring bahwa kode ini menjelaskan titik akhir yang harus tersedia melalui web. `@GetMapping(“/hello”)` memberi tahu Spring untuk menggunakan method `hello()` untuk menjawab permintaan yang dikirim ke alamat  `http://localhost:8080/hello`. Akhirnya, `@RequestParamSpring` memberi tahu Spring untuk mengharapkan nilai `name` dalam permintaan, tetapi jika tidak ada, itu akan menggunakan kata "Dunia" secara default.
